@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" stylesheets="@../../../style/tailwind-utilities.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="720.0" prefWidth="1080.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="84.0" prefWidth="1020.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-up Form">
+                     <font>
+                        <Font name="Calibri Bold" size="41.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="20.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home &gt; Club &gt; Club Name &gt; Sign-up Form">
+                     <font>
+                        <Font name="Calibri" size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </VBox>
+            <VBox>
+               <children>
+                  <HBox>
+                     <children>
+                        <VBox layoutX="10.0" layoutY="10.0" minHeight="593.0" minWidth="510.0" spacing="20.0">
+                           <children>
+                              <VBox layoutX="40.0" layoutY="40.0" prefHeight="61.0" prefWidth="450.0" spacing="10.0">
+                                 <children>
+                                    <Label styleClass="text-lg" text="NIM">
+                                       <font>
+                                          <Font name="Calibri" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField>
+                                       <styleClass>
+                                          <String fx:value="bg-gray-100" />
+                                          <String fx:value="text-md" />
+                                          <String fx:value="border-gray-300" />
+                                          <String fx:value="text-fill-gray-900" />
+                                          <String fx:value="bg-rounded-lg" />
+                                       </styleClass>
+                                    </TextField>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="40.0" layoutY="40.0" prefHeight="61.0" prefWidth="450.0" spacing="10.0">
+                                 <children>
+                                    <Label styleClass="text-lg" text="Full Name">
+                                       <font>
+                                          <Font name="Calibri" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField>
+                                       <styleClass>
+                                          <String fx:value="bg-gray-100" />
+                                          <String fx:value="text-md" />
+                                          <String fx:value="border-gray-300" />
+                                          <String fx:value="text-fill-gray-900" />
+                                          <String fx:value="bg-rounded-lg" />
+                                       </styleClass>
+                                    </TextField>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="40.0" layoutY="202.0" prefHeight="61.0" prefWidth="450.0" spacing="10.0">
+                                 <children>
+                                    <Label styleClass="text-lg" text="Birth Date">
+                                       <font>
+                                          <Font name="Calibri" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker prefHeight="25.0" prefWidth="454.0">
+                                       <styleClass>
+                                          <String fx:value="bg-gray-100" />
+                                          <String fx:value="text-md" />
+                                          <String fx:value="border-gray-300" />
+                                          <String fx:value="bg-rounded-md" />
+                                          <String fx:value="text-fill-gray-900" />
+                                       </styleClass>
+                                    </DatePicker>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="40.0" layoutY="202.0" prefHeight="288.0" prefWidth="450.0" spacing="10.0">
+                                 <children>
+                                    <Label styleClass="text-lg" text="Address">
+                                       <font>
+                                          <Font name="Calibri" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea prefHeight="200.0" prefWidth="450.0">
+                                        <styleClass>
+                                            <String fx:value="bg-gray-100" />
+                                            <String fx:value="text-md" />
+                                            <String fx:value="border-gray-300" />
+                                            <String fx:value="bg-rounded-md" />
+                                            <String fx:value="text-fill-gray-900" />
+                                        </styleClass>
+                                    </TextArea>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="593.0" prefWidth="510.0" spacing="20.0">
+                           <children>
+                              <VBox prefHeight="472.0" prefWidth="450.0" spacing="10.0">
+                                 <children>
+                                    <Label styleClass="text-lg" text="Reason to sign-up">
+                                       <font>
+                                          <Font name="Calibri" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea prefHeight="368.0" prefWidth="450.0">
+                                       <styleClass>
+                                          <String fx:value="bg-gray-100" />
+                                          <String fx:value="text-md" />
+                                          <String fx:value="border-gray-300" />
+                                          <String fx:value="bg-rounded-md" />
+                                          <String fx:value="text-fill-gray-900" />
+                                       </styleClass>
+                                    </TextArea>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <ButtonBar prefHeight="60.0" prefWidth="1000.0">
+                    <buttons>
+                        <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="123.0" text="Cancel">
+                           <styleClass>
+                              <String fx:value="bg-rounded-xl" />
+                              <String fx:value="bg-red-400" />
+                              <String fx:value="text-sm" />
+                              <String fx:value="text-fill-white" />
+                           </styleClass>
+                           <font>
+                              <Font name="Calibri Bold" size="30.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="955.0" layoutY="10.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="123.0" text="Reset">
+                           <styleClass>
+                              <String fx:value="bg-rounded-xl" />
+                              <String fx:value="bg-amber-400" />
+                              <String fx:value="text-sm" />
+                              <String fx:value="text-fill-white" />
+                           </styleClass>
+                           <font>
+                              <Font name="Calibri Bold" size="30.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="867.0" layoutY="10.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="123.0" text="Submit">
+                           <styleClass>
+                              <String fx:value="bg-rounded-xl" />
+                              <String fx:value="bg-blue-400" />
+                              <String fx:value="text-sm" />
+                              <String fx:value="text-fill-white" />
+                           </styleClass>
+                           <font>
+                              <Font name="Calibri Bold" size="30.0" />
+                           </font>
+                        </Button>
+                    </buttons>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </ButtonBar>
+               </children>
+               <styleClass>
+                  <String fx:value="bg-white" />
+                  <String fx:value="bg-rounded-3xl" />
+               </styleClass>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </children>
+   <styleClass>
+      <String fx:value="bg-slate-200" />
+      <String fx:value="\\" />
+   </styleClass>
+</AnchorPane>
