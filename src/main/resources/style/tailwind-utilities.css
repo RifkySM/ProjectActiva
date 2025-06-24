@@ -6529,3 +6529,25 @@
 .stroke-3 {
     -fx-stroke-width: 3;
 }
+.window-control-btn {
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 8 0 8;
+    -fx-border-width: 0;
+}
+
+.window-control-btn:hover {
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+
+.close-btn:hover {
+    -fx-text-fill: black;
+}
+
+.close-btn{
+    -fx-text-fill: white;
+}
+.close-btn-inverse{
+    -fx-text-fill: black;
+}

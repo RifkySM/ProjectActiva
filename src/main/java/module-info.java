@@ -10,8 +10,11 @@ module main.projecactiva {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens main.projecactiva to javafx.fxml;
-    exports main.projecactiva;
     exports App;
     opens App to javafx.fxml;
+
+    exports Controllers;
+    opens Controllers to javafx.fxml;
+
+    opens Controllers.Club to javafx.fxml;
 }
